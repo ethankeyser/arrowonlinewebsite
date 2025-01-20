@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Online LLC | Your Trusted Wholesale Buyer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e3fd6d1175.js" crossorigin="anonymous"></script>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Fixed Top Header */
+        .top-header {
+            position: fixed;
+            width: 100%;
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        header {
+            color: white;
+            padding: 120px 20px 20px; /* Adjust padding to avoid overlap with fixed header */
+            text-align: center;
+        }
+
+        h2 {
+            color: black;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #cc5500;
+        }
+
+        section {
+            padding: 20px 20px;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .grid-item {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+
+        .product-image {
+            height: 200px;
+            width: auto;
+        }
+
+        .title-container {
+            position: absolute;
+            top: 50%;
+            color: #EEEEEE;
+            margin: auto;
+            font-weight: bolder;
+            text-shadow: 3px 0 0 #000000;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Hero Section Styles */
+        .hero-section {
+            position: relative;
+            background: url('images/wholesale4.jpeg') no-repeat center center/cover;
+            height: 600px; /* Adjust as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            width: 100vw; 
+            max-width: 100%;
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .hero-content h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero-content p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        #about div {
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        
+    </style>
+</head>
+<body>
+
+<!-- Fixed Header with Logo and Business Name -->
+<div class="top-header">
+    <img src="images/AOLOGO.png" alt="Business Logo">
+    <a href="#contact" style="margin-right: 100px;" class="btn">Get in Touch</a>
+</div>
+
+<!-- Hero Image Section -->
+<section class="hero-section">
+    <div class="hero-content">
+        <h1>Welcome to Arrow Online LLC</h1>
+        <p>Your trusted partner for wholesale purchasing.</p>
+    </div>
+</section>
+
+
+<section id="products-we-buy">
+    <h2>What We're Looking For</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="images/product1.jpg" class="product-image" alt="Product Category 1" width="100%">
+            <h3>Consumer Electronics</h3>
+            <p>We source high-demand electronic products.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/product2.jpg" class="product-image" alt="Product Category 2" width="100%">
+            <h3>Home & Kitchen</h3>
+            <p>Seeking quality home and kitchen products.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/product3.jpg" class="product-image" alt="Product Category 3" width="100%">
+            <h3>Health & Beauty</h3>
+            <p>We purchase a wide range of health and beauty items.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" style="display: flex; align-items: center; justify-content: center; text-align: left; gap: 50px;">
+    <img src="images/aoimage2.jpg" alt="Your Image" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+    <div>
+        <h2>About Us</h2>
+        <p>At Arrow Online LLC, we specialize in helping to provide quality products and distribution to customers. Arrow Online LLC has been owned and operated by Ethan Keyser for over 3 years. Our Mission is to give customers easy access to products at fair prices.</p>
+    </div>
+</section>
+
+<!-- <section id="why-sell">
+    <h2>Why Sell to Us?</h2>
+    <p>We offer fair pricing, quick payments, and a seamless transaction process for businesses looking to sell bulk inventory.</p>
+</section> -->
+
+<section id="contact" style="background: #f8f9fa; padding: 50px 20px; text-align: center;">
+    <h2>Contact Us</h2>
+    <p style="font-size: 1.2em;">We'd love to hear from you! Reach out via any of the methods below.</p>
+    <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+        <div style="text-align: center;">
+            <img src="images/email.png" alt="Email" style="height: 50px;">
+            <p><a href="mailto:contact@arrowonlinellc.com" style="color: #333; text-decoration: none; font-weight: bold;">contact@arrowonlinellc.com</a></p>
+        </div>
+        <div style="text-align: center;">
+            <img src="images/phone.png" alt="Email" style="height: 50px;">
+            <p style="font-weight: bold;">(717) 339-9723</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="images/address.png" alt="Email" style="height: 50px;">
+            <p style="font-weight: bold;">29 W Broadway Gettysburg, PA 17325</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Arrow Online LLC. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
